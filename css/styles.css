@@ -70,10 +70,6 @@ html, body{
 
 /* featured bike style */
 
-.categories{
-    font-weight: 600;
-}
-
 
 .grayscale img{
     -webkit-filter: grayscale(1);
@@ -106,9 +102,6 @@ html, body{
 }
 
 /* frequently asked styles */
-.faq-header{
-    font-weight: 600;
-}
 
 .accordion-header button{
     font-family: 'Inter', sans-serif;
@@ -120,4 +113,9 @@ html, body{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     color: #7E848C;
+}
+
+/* upcoming bikes image slider styles */
+.honda-bg-danger{
+    background-color: #e2d1c3;
 }
