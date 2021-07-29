@@ -12,6 +12,10 @@ html, body{
     /* font-family: 'Inter', sans-serif; */
 }
 
+.honda-text-orange{
+    color: #E76F51;
+}
+
 /* header styles */
 
 .honda-bg-secondary{
@@ -66,13 +70,23 @@ html, body{
     font-weight: 600;
 }
 
-.categories small{
-    color: #E76F51;
-}
 
 .grayscale img{
     -webkit-filter: grayscale(1);
     filter: grayscale(1); 
+}
+
+
+/* client area styles */
+
+.client-header{
+    font-weight: 600;
+}
+.card{
+    align-items: center;
+}
+.card-image{
+    width: 50%;
 }
 
 .fa-star{
@@ -80,7 +94,7 @@ html, body{
 }
 
 .fa-star.filled{
-    color: #FFC014;
+    color: #E76F51;
 }
 
 .fa-star.empty{
