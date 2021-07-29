@@ -16,14 +16,16 @@
 </head>
 
 <body>
-    <header class="container-fluid bg-secondary banner mb-5">
+    <header class="container-fluid honda-bg-secondary text-white banner mb-5">
         <div class="row d-flex align-items-center justify-content-around p-5">
             <div class="col-12 col-lg-5">
                 <p><small>Computer-controlled digital transistorized with electronic advance</small></p>
                 <h1>Honda CBR 300R</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                <p class="honda-text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint.
+                    Velit officia consequat
                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal"
+                <button type="button" class="btn honda-btn-purchase-now" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">Purchase</button>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -36,8 +38,35 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <p>1.Shirt $235</p>
-                                <p>2.Pant $100</p>
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Product</th>
+                                            <th scope="col">Quantitiy</th>
+                                            <th scope="col">Price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Honda CBR 650R</td>
+                                            <td>1</td>
+                                            <td>$15000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Honda CBR150R</td>
+                                            <td>1</td>
+                                            <td>$5000</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td colspan="2">Total</td>
+                                            <td>$20000</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continue
@@ -125,7 +154,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 border-0 shadow-lg px-3 py-4">
-                        <img src="images/new-user-2.png" class="card-img-top" alt="...">
+                        <img src="images/new-user-3.png" class="card-img-top" alt="...">
                         <div class="card-body">
 
                             <p class="card-text">Slate helps you see how
@@ -228,6 +257,7 @@
         </section>
     </main>
     <footer>
+
 
     </footer>
     <!-- bootstrap js cdn -->
