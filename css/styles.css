@@ -9,12 +9,8 @@ html, body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
     overflow-x: hidden;
-    /* font-family: 'Inter', sans-serif; */
 }
 
-.honda-section-title{
-    font-weight: 600;
-}
 .honda-text-orange{
     color: #E76F51;
 }
@@ -34,8 +30,6 @@ html, body{
     font-weight: 300;
 }
 
-
-
 .honda-btn-purchase-now{
     width: 168px;
     height: 44px;
@@ -47,7 +41,6 @@ html, body{
     border-radius: 5px;
     border: none;
 }
-
 
 .banner img{
     width: 90%;
@@ -70,18 +63,13 @@ html, body{
 
 /* featured bike style */
 
-
 .grayscale img{
     -webkit-filter: grayscale(1);
     filter: grayscale(1); 
 }
 
-
 /* client area styles */
 
-.client-header{
-    font-weight: 600;
-}
 .card{
     align-items: center;
 }
