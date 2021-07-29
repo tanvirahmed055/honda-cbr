@@ -12,9 +12,13 @@ html, body{
     /* font-family: 'Inter', sans-serif; */
 }
 
+.honda-section-title{
+    font-weight: 600;
+}
 .honda-text-orange{
     color: #E76F51;
 }
+
 
 /* header styles */
 
@@ -99,4 +103,9 @@ html, body{
 
 .fa-star.empty{
     color: #AEAEAE;
+}
+
+/* frequently asked styles */
+.faq-header{
+    font-weight: 600;
 }
