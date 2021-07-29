@@ -5,8 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 /* Common Styles */
-body{
+html, body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
     /* font-family: 'Inter', sans-serif; */
 }
 
@@ -43,7 +44,8 @@ body{
     width: 90%;
 }
 
-.modal-header{
+.modal-sm{
+    max-width: 250px;
     justify-content: center;
     align-items: center;
 }
